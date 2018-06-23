@@ -1,6 +1,10 @@
 <template lang="html">
 
+
+
   <div class="bg">
+    <navbar/>
+
     <hr>
     <nuxt/>
     <hr>
@@ -10,7 +14,12 @@
 </template>
 
 <script>
+import Navbar from '~/components/Navbar0.vue';
+
 export default {
+  components: {
+    Navbar
+  }
 }
 </script>
 
@@ -19,4 +28,5 @@ export default {
 .bg{
   background-color: #f4f4f4;
 }
+
 </style>

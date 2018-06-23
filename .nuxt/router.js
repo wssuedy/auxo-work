@@ -3,17 +3,17 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _72331633 = () => import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */).then(m => m.default || m)
-const _174bc7aa = () => import('../pages/mystoretest.vue' /* webpackChunkName: "pages/mystoretest" */).then(m => m.default || m)
-const _c2bddca4 = () => import('../pages/createmessage.vue' /* webpackChunkName: "pages/createmessage" */).then(m => m.default || m)
-const _456d7cc5 = () => import('../pages/abc.vue' /* webpackChunkName: "pages/abc" */).then(m => m.default || m)
-const _dbbc0218 = () => import('../pages/qingjia.vue' /* webpackChunkName: "pages/qingjia" */).then(m => m.default || m)
-const _9fbc6dbe = () => import('../pages/sub/about.vue' /* webpackChunkName: "pages/sub/about" */).then(m => m.default || m)
-const _e3c75d14 = () => import('../pages/sub/b.vue' /* webpackChunkName: "pages/sub/b" */).then(m => m.default || m)
-const _e3e38c16 = () => import('../pages/sub/a.vue' /* webpackChunkName: "pages/sub/a" */).then(m => m.default || m)
-const _99202316 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
-const _339ab1fa = () => import('../pages/_hi.vue' /* webpackChunkName: "pages/_hi" */).then(m => m.default || m)
-const _36a12d16 = () => import('../pages/_message.vue' /* webpackChunkName: "pages/_message" */).then(m => m.default || m)
+const _63662ae3 = () => import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */).then(m => m.default || m)
+const _087edc5a = () => import('../pages/mystoretest.vue' /* webpackChunkName: "pages/mystoretest" */).then(m => m.default || m)
+const _0f61ba5e = () => import('../pages/createmessage.vue' /* webpackChunkName: "pages/createmessage" */).then(m => m.default || m)
+const _a6cf7d16 = () => import('../pages/abc.vue' /* webpackChunkName: "pages/abc" */).then(m => m.default || m)
+const _27faeba4 = () => import('../pages/qingjia.vue' /* webpackChunkName: "pages/qingjia" */).then(m => m.default || m)
+const _337249d1 = () => import('../pages/sub/about.vue' /* webpackChunkName: "pages/sub/about" */).then(m => m.default || m)
+const _54aeabb4 = () => import('../pages/sub/b.vue' /* webpackChunkName: "pages/sub/b" */).then(m => m.default || m)
+const _54cadab6 = () => import('../pages/sub/a.vue' /* webpackChunkName: "pages/sub/a" */).then(m => m.default || m)
+const _0a0771b6 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _4d5d6bb3 = () => import('../pages/_hi.vue' /* webpackChunkName: "pages/_hi" */).then(m => m.default || m)
+const _09f412c5 = () => import('../pages/_message.vue' /* webpackChunkName: "pages/_message" */).then(m => m.default || m)
 
 
 
@@ -75,57 +75,57 @@ export function createRouter () {
     routes: [
 		{
 			path: "/about",
-			component: _72331633,
+			component: _63662ae3,
 			name: "about"
 		},
 		{
 			path: "/mystoretest",
-			component: _174bc7aa,
+			component: _087edc5a,
 			name: "mystoretest"
 		},
 		{
 			path: "/createmessage",
-			component: _c2bddca4,
+			component: _0f61ba5e,
 			name: "createmessage"
 		},
 		{
 			path: "/abc",
-			component: _456d7cc5,
+			component: _a6cf7d16,
 			name: "abc"
 		},
 		{
 			path: "/qingjia",
-			component: _dbbc0218,
+			component: _27faeba4,
 			name: "qingjia"
 		},
 		{
 			path: "/sub/about",
-			component: _9fbc6dbe,
+			component: _337249d1,
 			name: "sub-about"
 		},
 		{
 			path: "/sub/b",
-			component: _e3c75d14,
+			component: _54aeabb4,
 			name: "sub-b"
 		},
 		{
 			path: "/sub/a",
-			component: _e3e38c16,
+			component: _54cadab6,
 			name: "sub-a"
 		},
 		{
 			path: "/",
-			component: _99202316,
+			component: _0a0771b6,
 			name: "index"
 		},
 		{
 			path: "/:hi",
-			component: _339ab1fa,
+			component: _4d5d6bb3,
 			name: "hi"
 		},
 		{
 			path: "/:message",
-			component: _36a12d16,
+			component: _09f412c5,
 			name: "message"
 		}
     ],
